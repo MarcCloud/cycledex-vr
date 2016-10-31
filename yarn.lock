@@ -3146,6 +3146,12 @@ write@^0.2.1:
   dependencies:
     mkdirp "^0.5.1"
 
+xstream:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/xstream/-/xstream-7.0.0.tgz#943a1f15505babf088e57aa098f5791414317564"
+  dependencies:
+    symbol-observable "^1.0.2"
+
 xtend@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.1.tgz#a5c6d532be656e23db820efb943a1f04998d63af"

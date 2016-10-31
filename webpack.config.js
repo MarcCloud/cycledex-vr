@@ -15,6 +15,6 @@ module.exports = {
         new w.NoErrorsPlugin()
     ],
     module: {
-        loaders: [{ test: /\.js$/, loader: 'babel-loader', include: /app/ }]
+        loaders: [{ test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ }]
     }
 };
