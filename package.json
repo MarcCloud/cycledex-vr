@@ -2,7 +2,8 @@
   "name": "cycledex-vr",
   "version": "1.0.0",
   "scripts": {
-    "start": "webpack-dev-server --content-base=www --inline --watch --hot"
+    "start": "webpack-dev-server --content-base=www --inline --watch --hot",
+    "build": "webpack"
   },
   "main": "index.js",
   "license": "MIT",
